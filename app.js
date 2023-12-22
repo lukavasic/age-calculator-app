@@ -41,6 +41,8 @@ calculateBtn.addEventListener("click", () => {
   dayOut.innerText = day;
 });
 
+//Date Input Validation
+
 function validateInput(year, month, day) {
   let valid = true;
 
@@ -78,6 +80,8 @@ function validateInput(year, month, day) {
 
   return valid;
 }
+
+//Styling Functions
 
 function errorMessage(HTMLelement, message) {
   HTMLelement.style.border = "0.5px solid var(--clr-primary-red)";
